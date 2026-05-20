@@ -1,3 +1,13 @@
 # Notebooks
 
-Use this folder for article-linked notebooks.
+Generate the dataset first:
+
+```bash
+python3 ../python/metacognition_model.py --simulate --output ../data/metacognition_trials.csv --outputs ../outputs
+```
+
+Then open:
+
+```bash
+jupyter notebook metacognition_workflow.ipynb
+```

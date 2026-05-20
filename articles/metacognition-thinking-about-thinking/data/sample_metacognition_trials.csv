@@ -1,0 +1,11 @@
+participant,condition,trial,task_id,domain,task_difficulty,evidence_quality,confidence_rating,uncertainty_rating,actual_accuracy,judgment_of_learning,feeling_of_knowing,strategy_shift,review_choice,feedback_used,study_time_seconds,response_time_ms,metacognitive_regulation_score
+P001,control,1,MC001,memory,4.2,6.4,0.72,0.28,1,0.70,0.62,0,0,0,18.2,1280,5.8
+P001,high_difficulty,2,MC002,problem_solving,8.1,4.0,0.64,0.58,0,0.55,0.50,1,1,0,42.0,3210,6.2
+P002,feedback,1,MC003,learning,5.8,6.2,0.68,0.40,1,0.72,0.66,1,1,1,36.4,1980,7.4
+P002,metacognitive_prompt,2,MC004,reasoning,6.6,6.0,0.61,0.46,1,0.63,0.58,1,1,1,39.1,2410,8.0
+P003,time_pressure,1,MC005,decision_making,6.9,4.8,0.82,0.25,0,0.78,0.70,0,0,0,9.0,860,4.6
+P003,strategy_training,2,MC006,problem_solving,7.2,5.5,0.57,0.52,1,0.60,0.55,1,1,1,45.0,2860,8.3
+P004,uncertainty_display,1,MC007,decision_making,6.4,5.2,0.55,0.56,1,0.58,0.52,1,1,1,38.5,2140,7.8
+P004,control,2,MC008,memory,3.5,7.2,0.74,0.22,1,0.76,0.69,0,0,0,16.0,1120,6.1
+P005,high_difficulty,1,MC009,reasoning,8.6,3.8,0.77,0.38,0,0.71,0.66,0,0,0,21.2,2900,4.2
+P005,feedback,2,MC010,learning,5.4,6.8,0.66,0.42,1,0.68,0.61,1,1,1,34.2,1880,7.6

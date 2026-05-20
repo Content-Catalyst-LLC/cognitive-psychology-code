@@ -1,0 +1,19 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|feedback|metacognitive_prompt|high_difficulty|time_pressure|strategy_training|uncertainty_display
+trial,integer,Trial number within participant,1+
+task_id,string,Task identifier,non-empty
+domain,string,Task domain,memory|learning|problem_solving|decision_making|reasoning
+task_difficulty,numeric,Objective or calibrated difficulty,0-10
+evidence_quality,numeric,Quality of available evidence,0-10
+confidence_rating,numeric,Confidence rating scaled 0-1,0-1
+uncertainty_rating,numeric,Uncertainty rating scaled 0-1,0-1
+actual_accuracy,integer,Objective correctness,0|1
+judgment_of_learning,numeric,Prediction of future recall or mastery,0-1
+feeling_of_knowing,numeric,Feeling-of-knowing judgment,0-1
+strategy_shift,integer,Whether participant changed strategy,0|1
+review_choice,integer,Whether participant chose review or restudy,0|1
+feedback_used,integer,Whether feedback was used to adjust strategy,0|1
+study_time_seconds,numeric,Study or review time in seconds,0+
+response_time_ms,numeric,Response time in milliseconds,150+
+metacognitive_regulation_score,numeric,Regulation quality score,0-10

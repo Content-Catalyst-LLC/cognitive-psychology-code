@@ -1,4 +1,6 @@
 [package]
-name = "cognitive_task_utility"
+name = "metacognition_summary"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
