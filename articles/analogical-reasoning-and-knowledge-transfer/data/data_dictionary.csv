@@ -1,0 +1,19 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|surface_match|structure_match|analogical_cue|high_complexity|schema_training
+source_id,string,Source case/problem identifier,non-empty
+target_id,string,Target case/problem identifier,non-empty
+trial,integer,Trial number within participant,1+
+source_familiarity,numeric,Familiarity with source domain,0-10
+target_novelty,numeric,Novelty of target domain,0-10
+surface_similarity,numeric,Surface similarity between source and target,0-10
+structural_similarity,numeric,Relational/structural similarity between source and target,0-10
+relational_complexity,numeric,Relational complexity or nesting depth,0-10
+working_memory_load,numeric,Working-memory burden during mapping,0-10
+analogical_cue,integer,Whether a cue to use analogy was provided,0|1
+mapping_accuracy,integer,Whether source-target mapping was accurate,0|1
+transfer_success,integer,Whether source knowledge was successfully transferred,0|1
+inference_quality,numeric,Quality of projected inference,0-100
+schema_abstraction,numeric,Degree of extracted reusable schema,0-10
+confidence,numeric,Participant confidence,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
