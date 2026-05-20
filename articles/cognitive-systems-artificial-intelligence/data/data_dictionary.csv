@@ -1,0 +1,18 @@
+column,type,description,expected_range
+agent_id,string,Unique artificial agent or model identifier,non-empty
+architecture,string,Architecture family,symbolic|neural|hybrid|retrieval_augmented|reinforcement_learning
+task_condition,string,Task or experimental condition,baseline|high_uncertainty|memory_load|human_ai_collaboration
+trial,integer,Trial number within agent,1+
+input_noise,numeric,Input ambiguity or perceptual noise score,0-10
+representation_quality,numeric,Quality of internal representation,0-10
+working_memory_load,numeric,Active information-maintenance load,0-10
+retrieval_latency_ms,numeric,Latency for memory/context retrieval,1+
+uncertainty_level,numeric,Uncertainty in state or outcome,0-10
+policy_entropy,numeric,Entropy of action-selection distribution,0-5
+prediction_accuracy,numeric,Prediction accuracy or continuous performance score,0-1
+action_success,integer,Whether selected action achieved task objective,0|1
+explanation_score,numeric,Human-rated explanation quality,0-10
+human_trust,numeric,Human trust or reliance rating,0-10
+override_decision,integer,Whether human overrode the system,0|1
+response_time_ms,numeric,System or human-agent response latency,1+
+calibration_error,numeric,Absolute calibration error,0-1

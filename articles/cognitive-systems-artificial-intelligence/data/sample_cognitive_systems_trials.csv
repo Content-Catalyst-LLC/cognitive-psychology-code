@@ -1,0 +1,11 @@
+agent_id,architecture,task_condition,trial,input_noise,representation_quality,working_memory_load,retrieval_latency_ms,uncertainty_level,policy_entropy,prediction_accuracy,action_success,explanation_score,human_trust,override_decision,response_time_ms,calibration_error
+A001,symbolic,baseline,1,2.0,7.2,3.4,120,3.0,1.1,0.78,1,8.1,7.2,0,520,0.08
+A001,symbolic,high_uncertainty,2,6.8,6.2,5.1,170,7.2,2.4,0.61,1,7.4,6.5,0,740,0.14
+A002,neural,baseline,1,2.5,8.1,3.8,85,3.2,1.5,0.84,1,5.4,6.1,0,430,0.10
+A002,neural,memory_load,2,4.2,7.6,8.0,260,5.8,2.7,0.68,1,4.8,5.2,1,810,0.18
+A003,hybrid,human_ai_collaboration,1,3.0,8.5,4.5,135,4.4,1.3,0.86,1,8.6,8.0,0,610,0.06
+A003,hybrid,high_uncertainty,2,6.2,7.7,5.6,190,7.5,2.1,0.73,1,8.0,7.4,0,780,0.11
+A004,retrieval_augmented,baseline,1,2.8,8.3,4.2,145,3.6,1.2,0.82,1,7.9,7.1,0,560,0.07
+A004,retrieval_augmented,memory_load,2,4.6,8.0,8.6,340,5.9,2.3,0.71,1,7.6,6.9,0,920,0.13
+A005,reinforcement_learning,baseline,1,3.4,6.8,4.1,105,4.2,2.0,0.74,1,5.2,5.7,1,500,0.15
+A005,reinforcement_learning,high_uncertainty,2,7.1,6.0,5.4,150,8.0,3.1,0.55,0,4.9,4.8,1,760,0.22
