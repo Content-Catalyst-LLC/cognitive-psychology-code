@@ -1,0 +1,19 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental or observational condition,control|gain_frame|loss_frame|default_nudge|social_norm|high_load
+trial,integer,Trial number within participant,1+
+choice_domain,string,Domain of choice,savings|health|environment|consumer|risk|time
+gain_loss_frame,string,Gain/loss framing category,gain|loss|neutral
+reference_point,numeric,Reference point used to evaluate gains/losses,any real number
+outcome_amount,numeric,Outcome amount or value,any real number
+probability,numeric,Objective or stated probability,0-1
+delay_days,numeric,Delay for intertemporal choices,0+
+cognitive_load,numeric,Cognitive load score,0-10
+attention_score,numeric,Attention or comprehension score,0-10
+default_present,integer,Whether a default option was present,0|1
+social_norm_strength,numeric,Strength of descriptive/social norm signal,0-10
+loss_aversion_lambda,numeric,Individual or simulated loss-aversion parameter,1+
+risky_choice,integer,Whether the risky option was selected,0|1
+default_accepted,integer,Whether the default option was accepted,0|1
+willingness_to_pay,numeric,Willingness to pay or equivalent valuation,0+
+decision_time_ms,numeric,Decision time in milliseconds,150+
