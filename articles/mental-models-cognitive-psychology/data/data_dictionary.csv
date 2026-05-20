@@ -1,0 +1,22 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|model_training|diagram_prompt|feedback|expert_comparison|hci_task|complex_system|ai_assisted
+domain,string,Task domain,mechanical|ecological|organizational|economic|interface|policy|clinical|infrastructure
+trial,integer,Trial number within participant,1+
+scenario_id,string,Scenario or system identifier,non-empty
+model_completeness,numeric,Relevant elements represented,0-10
+model_coherence,numeric,Consistency of represented relations,0-10
+causal_link_accuracy,numeric,Accuracy of causal links,0-10
+feedback_loop_recognition,numeric,Recognition of feedback structure,0-10
+boundary_accuracy,numeric,System boundary accuracy,0-10
+structural_similarity,numeric,Similarity between training and transfer scenario,0-10
+prediction_error,numeric,Absolute or scaled prediction error,0+
+system_understanding_score,numeric,Composite system-understanding score,0-100
+problem_success,integer,Whether task or problem was successfully solved,0|1
+intervention_choice_accuracy,integer,Whether chosen intervention followed from model structure,0|1
+model_revision_score,numeric,Quality of model revision after feedback,0-10
+transfer_score,numeric,Transfer performance score,0-100
+reasoning_time_ms,numeric,Reasoning time in milliseconds,150+
+confidence,numeric,Participant confidence,0-10
+cognitive_load,numeric,Perceived or measured cognitive load,0-10
+explanation_quality,numeric,Coded explanation quality,0-10
