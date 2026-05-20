@@ -1,0 +1,11 @@
+participant,condition,domain,trial,scenario_id,bias_type,frame,gain_loss,anchor_value,base_rate,representativeness,evidence_valence,confirmation_congruence,prior_belief,confidence_rating,actual_accuracy,calibration_error,overconfidence,probability,payoff,loss_aversion_lambda,probability_weight,subjective_value,chose_risky,choice_binary,correct,response_time_ms,cognitive_load,time_pressure,debiasing_condition,decision_quality,institutional_review_flag
+P001,framing,health,1,CB001,framing,gain,gain,50,0.62,5.2,1.8,0.52,0.58,0.78,0.66,0.12,0.12,0.62,180,2.10,0.67,92.1,0,1,1,1820,4.8,5.2,none,0.74,0
+P001,framing,health,2,CB002,framing,loss,loss,50,0.62,5.0,-1.8,0.50,0.58,0.74,0.66,0.08,0.08,0.62,-180,2.10,0.67,-204.2,1,1,0,1960,5.2,5.8,none,0.58,1
+P002,anchoring,finance,1,CB003,anchoring,neutral,mixed,85,0.44,5.4,0.4,0.48,0.50,0.82,0.60,0.22,0.22,0.44,120,2.35,0.49,55.8,1,1,0,1640,5.8,6.4,none,0.50,1
+P002,anchoring,finance,2,CB004,anchoring,neutral,mixed,25,0.44,5.4,0.4,0.48,0.50,0.70,0.64,0.06,0.06,0.44,120,2.35,0.49,55.8,0,0,1,2100,4.4,4.2,base_rate_prompt,0.72,0
+P003,confirmation,legal,1,CB005,confirmation,neutral,neutral,50,0.38,6.2,2.6,0.82,0.78,0.86,0.58,0.28,0.28,0.38,75,2.00,0.43,33.1,1,1,0,2440,6.6,5.8,none,0.48,1
+P003,confirmation,legal,2,CB006,confirmation,neutral,neutral,50,0.38,6.2,-2.4,0.38,0.78,0.68,0.62,0.06,0.06,0.38,75,2.00,0.43,33.1,0,0,1,3180,5.2,4.6,consider_opposite,0.76,0
+P004,overconfidence,medical,1,CB007,overconfidence,neutral,neutral,50,0.55,5.8,0.6,0.58,0.62,0.92,0.70,0.22,0.22,0.55,200,2.20,0.59,105.0,1,1,1,2260,5.6,5.2,none,0.68,1
+P004,overconfidence,medical,2,CB008,overconfidence,neutral,neutral,50,0.55,5.8,0.6,0.58,0.62,0.76,0.72,0.04,0.04,0.55,200,2.20,0.59,105.0,1,1,1,2860,4.8,4.2,feedback,0.80,0
+P005,prospect,risk,1,CB009,loss_aversion,loss,loss,50,0.25,5.0,-2.0,0.48,0.50,0.72,0.58,0.14,0.14,0.25,-400,2.50,0.31,-489.0,0,0,1,2020,5.8,6.0,none,0.64,1
+P005,prospect,risk,2,CB010,loss_aversion,gain,gain,50,0.25,5.0,2.0,0.48,0.50,0.70,0.60,0.10,0.10,0.25,400,2.50,0.31,173.0,1,1,0,2140,5.6,5.8,none,0.54,1
