@@ -1,0 +1,17 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+unit,string,Organizational unit or department label,non-empty
+condition,string,Experimental or observational condition,baseline|overload|dashboard_support|deliberative_review
+trial,integer,Trial number within participant,1+
+info_load,numeric,Information load score,0-10
+attention_score,numeric,Attention or cue-detection score,0-10
+uncertainty_level,numeric,Uncertainty score,0-10
+coordination_load,numeric,Coordination burden score,0-10
+institutional_pressure,numeric,Political or incentive pressure score,0-10
+feedback_delay,numeric,Delay before outcome feedback,0-10
+psychological_safety,numeric,Perceived ability to raise concerns safely,0-10
+dissent_present,integer,Whether dissent or alternative interpretation was present,0|1
+automation_reliance,numeric,Reliance on automated decision-support outputs,0-10
+decision_quality,numeric,Decision-quality score,0-100
+chose_satisficing,integer,Whether a satisficing option was chosen,0|1
+response_time_ms,numeric,Decision response time in milliseconds,150+
