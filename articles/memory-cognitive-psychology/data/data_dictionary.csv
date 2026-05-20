@@ -1,0 +1,28 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|deep_encoding|shallow_encoding|retrieval_practice|restudy|spaced|massed|misinformation|source_monitoring|ai_supported
+domain,string,Task domain,general|verbal|visual|spatial|episodic|semantic|educational|legal|health|ai
+trial,integer,Trial number within participant,1+
+item_id,string,Unique stimulus or memory item identifier,non-empty
+memory_system,string,Memory system or classification,sensory|working|episodic|semantic|procedural|implicit|explicit|source
+study_type,string,Study or learning condition,restudy|retrieval_practice|spaced|massed|elaboration|generation|interleaving|misinformation|ai_supported
+encoding_depth,numeric,Depth or elaboration of encoding,0-10
+retrieval_practice,integer,Whether retrieval practice occurred,0|1
+spacing_interval,numeric,Interval between learning opportunities,0+
+delay,numeric,Retention interval,0+
+retention_strength,numeric,Estimated trace/accessibility strength,0+
+cue_quality,numeric,Quality of retrieval cue,0-10
+interference,numeric,Interference level,0-10
+consolidation_support,numeric,Support for consolidation,0-10
+source_context,numeric,Source-context diagnosticity,0-10
+misinformation_exposure,integer,Whether misinformation exposure occurred,0|1
+old_item,integer,Whether item was studied/old,0|1
+response_old,integer,Whether participant responded old,0|1
+source_correct,integer,Whether source attribution was correct,0|1
+correct,integer,Whether response was correct,0|1
+recall_accuracy,numeric,Recall accuracy,0-1
+recognition_confidence,numeric,Confidence in recognition/recollection,0-1
+retrieval_fluency,numeric,Ease of retrieval,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
+learning_transfer,numeric,Transfer performance,0-1
+forgetting_rate,numeric,Estimated forgetting rate,0+
