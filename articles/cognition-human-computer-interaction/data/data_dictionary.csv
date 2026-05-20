@@ -1,0 +1,18 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+interface_condition,string,Design condition or interface variant,baseline|cluttered|guided|adaptive|accessible|ai_assisted
+task_id,string,Task identifier,non-empty
+trial,integer,Trial number within participant,1+
+task_difficulty,numeric,Objective or rated task difficulty,0-10
+perceptual_load,numeric,Visual or sensory interpretation load,0-10
+attentional_demand,numeric,Degree of divided or competing attention,0-10
+working_memory_load,numeric,Information maintained during task,0-10
+cognitive_load,numeric,Overall subjective or composite cognitive load,0-10
+alignment_score,numeric,Mental-model alignment score,0-10
+trust_score,numeric,Trust or confidence in system behavior,0-10
+automation_reliance,numeric,Reliance on recommendations/defaults/automation,0-10
+accessibility_friction,numeric,Friction associated with accessibility barriers,0-10
+success,integer,Whether task was completed successfully,0|1
+response_time_ms,numeric,Task response/completion time in milliseconds,150+
+error_count,integer,Number of task errors,0+
+warning_detected,integer,Whether a warning or critical cue was detected,0|1
