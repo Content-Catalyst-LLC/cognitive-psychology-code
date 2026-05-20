@@ -1,0 +1,26 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|valid_cue|invalid_cue|neutral_cue|high_load|low_load|distraction|dual_task|vigilance|interface_alert
+domain,string,Task domain,general|visual|auditory|multisensory|interface|driving|medical|education|ai|safety
+trial,integer,Trial number within participant,1+
+block,integer,Time-on-task block,1+
+stimulus_id,string,Unique stimulus identifier,non-empty
+cue_validity,string,Cue validity,valid|neutral|invalid|none
+task_type,string,Attention task,cueing|visual_search|cpt|flanker|stroop|dual_task|attentional_blink|monitoring|interface
+target_present,integer,Whether target/signal was present,0|1
+response_yes,integer,Whether participant responded target present,0|1
+correct,integer,Whether response was correct,0|1
+rt,numeric,Reaction time in milliseconds,150+
+salience,numeric,Bottom-up salience,0-10
+goal_relevance,numeric,Top-down relevance,0-10
+distractor_load,numeric,Distractor load,0-10
+perceptual_load,numeric,Perceptual load,0-10
+executive_load,numeric,Executive control load,0-10
+task_switch,integer,Whether task/rule switched,0|1
+conflict,numeric,Response or stimulus conflict,0-10
+vigilance_state,numeric,Estimated readiness/alertness,0-10
+lapse_probability,numeric,Estimated lapse probability,0-1
+confidence,numeric,Subjective confidence,0-1
+interface_salience,numeric,Interface signal salience,0-10
+notification_load,numeric,Notification or alert load,0-10
+divided_attention_cost,numeric,Dual/divided attention cost,0-1
