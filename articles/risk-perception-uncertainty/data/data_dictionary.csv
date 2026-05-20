@@ -1,0 +1,22 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|gain_frame|loss_frame|high_affect|low_affect|numeric_only|narrative|uncertainty_explicit|ai_advisory
+domain,string,Risk domain,health|climate|finance|technology|infrastructure|environment|public_safety|ai
+trial,integer,Trial number within participant,1+
+scenario_id,string,Scenario identifier,non-empty
+objective_probability,numeric,Objective or stated probability,0-1
+subjective_probability,numeric,Participant judged probability,0-1
+consequence_rating,numeric,Perceived consequence severity,0-10
+affect_rating,numeric,Affective intensity,0-10
+dread_rating,numeric,Dread or catastrophic concern,0-10
+familiarity_rating,numeric,Familiarity with the risk,0-10
+controllability_rating,numeric,Perceived controllability,0-10
+trust_rating,numeric,Trust in source or managing institution,0-10
+ambiguity_rating,numeric,Perceived ambiguity or uncertainty,0-10
+communication_clarity,numeric,Perceived clarity of risk message,0-10
+perceived_benefit,numeric,Perceived benefit associated with activity or option,0-10
+perceived_risk,numeric,Overall perceived risk,0-10
+choose_safe,integer,Choice of safer option,0|1
+protective_action,integer,Protective action chosen,0|1
+rt_ms,numeric,Response time in milliseconds,150+
+confidence,numeric,Confidence in judgment,0-10

@@ -1,0 +1,11 @@
+participant,condition,domain,trial,scenario_id,objective_probability,subjective_probability,consequence_rating,affect_rating,dread_rating,familiarity_rating,controllability_rating,trust_rating,ambiguity_rating,communication_clarity,perceived_benefit,perceived_risk,choose_safe,protective_action,rt_ms,confidence
+P001,control,health,1,RP001,0.120,0.180,6.8,6.2,6.4,5.8,5.4,5.2,4.8,5.0,4.2,6.6,1,1,2180,6.2
+P001,gain_frame,health,2,RP002,0.120,0.140,6.4,5.4,5.8,5.8,5.8,5.8,4.2,6.4,4.8,5.8,1,1,1960,6.6
+P002,loss_frame,finance,1,RP003,0.080,0.160,7.2,7.6,7.0,6.0,4.8,4.6,5.6,5.2,3.8,7.8,1,1,2440,6.8
+P002,numeric_only,finance,2,RP004,0.080,0.110,6.8,5.8,5.6,6.2,5.4,5.4,4.4,6.0,4.2,6.1,1,0,2100,6.4
+P003,high_affect,climate,1,RP005,0.250,0.360,8.8,8.6,8.4,4.0,3.8,4.2,7.2,4.8,3.0,8.9,1,1,3120,7.4
+P003,uncertainty_explicit,climate,2,RP006,0.250,0.300,8.2,7.2,7.6,4.2,4.0,5.8,7.8,7.0,3.6,7.9,1,1,3360,6.8
+P004,low_affect,technology,1,RP007,0.050,0.070,4.8,3.2,3.4,7.4,6.8,6.0,3.8,6.6,7.0,3.6,0,0,1680,7.2
+P004,ai_advisory,technology,2,RP008,0.050,0.090,5.0,4.4,4.2,7.0,6.0,5.2,4.8,6.8,6.4,4.8,0,0,1920,7.8
+P005,narrative,infrastructure,1,RP009,0.180,0.260,7.6,7.4,7.8,4.8,4.2,4.6,6.4,6.0,3.4,7.7,1,1,2860,6.6
+P005,uncertainty_explicit,infrastructure,2,RP010,0.180,0.220,7.4,6.8,7.2,4.8,4.6,5.6,7.0,7.2,3.8,7.0,1,1,3040,6.4
