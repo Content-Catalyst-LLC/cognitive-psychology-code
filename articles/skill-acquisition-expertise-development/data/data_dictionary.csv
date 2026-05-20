@@ -1,0 +1,23 @@
+column,type,description
+participant,string,Unique participant identifier
+expertise_level,string,novice|intermediate|advanced|expert
+condition,string,control|deliberate_practice|high_feedback|low_feedback|transfer_task|adaptive_training|time_pressure
+domain,string,medicine|engineering|music|sports|programming|decision_making
+session,integer,Practice or assessment session
+task_id,string,Task identifier
+practice_hours,numeric,Cumulative practice hours
+deliberate_practice_quality,numeric,Quality of deliberate practice on 0-10 scale
+feedback_quality,numeric,Feedback quality on 0-10 scale
+task_difficulty,numeric,Task difficulty on 0-10 scale
+cognitive_load,numeric,Cognitive load on 0-10 scale
+working_memory_demand,numeric,Working-memory demand on 0-10 scale
+chunking_score,numeric,Knowledge chunking on 0-10 scale
+pattern_recognition_score,numeric,Pattern recognition on 0-10 scale
+strategy_quality,numeric,Strategy quality on 0-10 scale
+transfer_score,numeric,Transfer score on 0-100 scale
+adaptive_flexibility,numeric,Adaptive flexibility on 0-10 scale
+accuracy,numeric,Accuracy on 0-1 scale
+error_rate,numeric,Error rate on 0-1 scale
+response_time_ms,numeric,Response time in milliseconds
+automaticity_score,numeric,Automaticity on 0-10 scale
+retention_score,numeric,Retention on 0-100 scale

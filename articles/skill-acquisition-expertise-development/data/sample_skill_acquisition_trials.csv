@@ -1,0 +1,7 @@
+participant,expertise_level,condition,domain,session,task_id,practice_hours,deliberate_practice_quality,feedback_quality,task_difficulty,cognitive_load,working_memory_demand,chunking_score,pattern_recognition_score,strategy_quality,transfer_score,adaptive_flexibility,accuracy,error_rate,response_time_ms,automaticity_score,retention_score
+P001,novice,control,programming,1,SA001,2.0,3.2,4.0,5.8,8.0,7.8,2.4,2.8,3.2,42.0,3.0,0.52,0.48,3420,2.2,45.0
+P001,novice,high_feedback,programming,2,SA002,5.0,4.8,8.2,5.6,7.2,7.0,3.4,3.8,4.6,52.0,4.2,0.63,0.37,2980,3.8,54.0
+P002,intermediate,deliberate_practice,medicine,3,SA003,32.0,8.0,7.6,6.6,5.6,5.2,6.4,6.8,7.2,68.0,6.5,0.76,0.24,2140,6.2,70.0
+P002,intermediate,transfer_task,medicine,4,SA004,38.0,7.4,7.2,7.8,6.2,5.8,6.8,7.0,7.0,62.0,6.8,0.72,0.28,2360,5.8,68.0
+P003,advanced,adaptive_training,engineering,5,SA005,120.0,8.6,8.0,7.2,4.8,4.4,8.0,8.2,8.4,82.0,8.2,0.86,0.14,1640,8.0,84.0
+P004,expert,adaptive_training,music,7,SA007,3200.0,9.2,8.4,8.6,3.8,3.6,9.4,9.2,9.0,91.0,9.1,0.93,0.07,980,9.2,92.0
