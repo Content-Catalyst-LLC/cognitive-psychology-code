@@ -1,0 +1,26 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|low_contrast|high_contrast|attention_cued|attention_uncued|predictive_context|neutral_context|multisensory_congruent|multisensory_incongruent|interface_salient
+domain,string,Task domain,general|visual|auditory|tactile|multisensory|interface|medical|safety|ai
+trial,integer,Trial number within participant,1+
+stimulus_id,string,Unique stimulus identifier,non-empty
+modality,string,Sensory modality,visual|auditory|tactile|multisensory|interface
+stimulus_level,numeric,Signal strength or stimulus intensity,-10 to 10
+signal_present,integer,Whether signal/target was present,0|1
+response_yes,integer,Whether participant responded yes/present,0|1
+correct,integer,Whether response was correct,0|1
+sensory_evidence,numeric,Strength of sensory evidence,-10 to 10
+prior_expectation,numeric,Strength of prior expectation,0-10
+cue_quality,numeric,Diagnostic quality of cue,0-10
+attention_gain,numeric,Attentional amplification,0-10
+context_strength,numeric,Contextual support,0-10
+noise_level,numeric,Noise or ambiguity,0-10
+prediction_error,numeric,Mismatch between input and prediction,0+
+perceptual_threshold,numeric,Estimated participant/task threshold,-10 to 10
+confidence,numeric,Subjective confidence,0-1
+response_time_ms,numeric,Response time in milliseconds,150+
+multisensory_congruence,numeric,Congruence between modalities,0-1
+visual_search_set_size,integer,Number of display items,1+
+distractor_similarity,numeric,Target-distractor similarity,0-10
+perceptual_learning_block,integer,Practice or learning block,1+
+interface_salience,numeric,Interface signal salience,0-10

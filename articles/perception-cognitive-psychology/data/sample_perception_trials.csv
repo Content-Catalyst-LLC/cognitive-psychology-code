@@ -1,0 +1,11 @@
+participant,condition,domain,trial,stimulus_id,modality,stimulus_level,signal_present,response_yes,correct,sensory_evidence,prior_expectation,cue_quality,attention_gain,context_strength,noise_level,prediction_error,perceptual_threshold,confidence,response_time_ms,multisensory_congruence,visual_search_set_size,distractor_similarity,perceptual_learning_block,interface_salience
+P001,control,visual,1,S001,visual,1.2,1,1,1,1.6,4.8,5.4,5.2,4.5,3.2,0.8,0.5,0.76,820,0.0,8,3.2,1,4.0
+P001,low_contrast,visual,2,S002,visual,-0.4,1,0,0,0.3,4.5,4.0,4.8,3.8,6.8,2.2,0.6,0.54,1180,0.0,12,5.0,1,3.0
+P002,attention_cued,visual,1,S003,visual,0.8,1,1,1,1.4,5.0,5.8,8.0,5.2,3.6,0.5,0.2,0.84,710,0.0,10,3.4,2,5.0
+P002,attention_uncued,visual,2,S004,visual,0.8,1,0,0,0.8,4.8,4.8,3.2,4.2,4.8,1.6,0.4,0.56,1300,0.0,10,3.4,2,4.0
+P003,predictive_context,auditory,1,S005,auditory,0.5,1,1,1,1.1,7.8,6.2,5.0,8.2,4.0,0.4,0.3,0.82,760,0.0,1,0.0,3,0.0
+P003,neutral_context,auditory,2,S006,auditory,0.5,1,1,1,0.9,4.0,5.0,5.0,3.8,4.4,1.5,0.3,0.68,980,0.0,1,0.0,3,0.0
+P004,multisensory_congruent,multisensory,1,S007,multisensory,0.4,1,1,1,0.8,5.0,6.0,5.5,6.4,4.2,0.6,0.2,0.80,840,0.9,6,2.0,2,4.0
+P004,multisensory_incongruent,multisensory,2,S008,multisensory,0.4,1,0,0,0.5,5.0,4.8,5.2,3.0,6.2,2.4,0.4,0.50,1460,0.2,6,4.5,2,3.0
+P005,interface_salient,interface,1,S009,interface,1.0,1,1,1,1.7,5.2,6.0,7.0,6.0,3.0,0.5,0.2,0.86,690,0.0,16,2.5,4,8.0
+P005,control,interface,2,S010,interface,0.2,0,1,0,0.1,5.2,4.0,4.5,3.0,5.8,1.9,0.4,0.62,1120,0.0,16,5.8,4,3.0
