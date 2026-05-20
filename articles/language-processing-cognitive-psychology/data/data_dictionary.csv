@@ -1,0 +1,21 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|high_frequency|low_frequency|syntactic_complexity|semantic_prime|pragmatic_inference|discourse_context|production_load
+trial,integer,Trial number within participant,1+
+item_id,string,Word sentence or passage identifier,non-empty
+modality,string,Input or output modality,speech|reading|writing|lexical_decision
+word_frequency,numeric,Frequency or familiarity score,0-10
+lexical_ambiguity,numeric,Lexical ambiguity or competing meaning load,0-10
+syntactic_complexity,numeric,Syntactic complexity score,0-10
+semantic_predictability,numeric,Semantic predictability from context,0-10
+context_support,numeric,Support from prior discourse or situation,0-10
+working_memory_load,numeric,Working-memory load during processing,0-10
+pragmatic_inference_demand,numeric,Demand for implied meaning or intention inference,0-10
+discourse_coherence,numeric,Fitness with discourse context,0-10
+comprehension_accuracy,integer,Whether comprehension response was correct,0|1
+lexical_decision_accuracy,integer,Whether lexical decision was correct,0|1
+production_accuracy,integer,Whether produced response met target criteria,0|1
+reading_time_ms,numeric,Reading time in milliseconds,100+
+lexical_decision_rt_ms,numeric,Lexical decision response time in milliseconds,100+
+production_latency_ms,numeric,Production latency in milliseconds,100+
+confidence,numeric,Participant confidence,0-10
