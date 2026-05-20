@@ -1,0 +1,29 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|high_load|low_load|interference|dual_task|chunking|rehearsal_blocked|ai_supported|instructional_support
+domain,string,Task domain,general|verbal|visual|spatial|auditory|language|math|learning|interface|ai
+trial,integer,Trial number within participant,1+
+task_type,string,Task paradigm,simple_span|complex_span|operation_span|reading_span|spatial_span|n_back|serial_recall|change_detection|dual_task
+modality,string,Stimulus modality,verbal|visual|spatial|auditory|multimodal|semantic
+load,integer,Memory load or set size,1+
+serial_position,integer,Position in sequence,1+
+distractor_level,numeric,Distractor intensity,0-10
+interference,numeric,Interference level,0-10
+attentional_control,numeric,Attentional-control score,0-10
+updating_demand,numeric,Updating demand,0-10
+storage_demand,numeric,Storage demand,0-10
+processing_demand,numeric,Processing demand,0-10
+chunking_support,numeric,Chunking support,0-10
+rehearsal_opportunity,numeric,Rehearsal opportunity,0-10
+cognitive_load,numeric,Total cognitive load,0-10
+span_score,numeric,Span score,0+
+updating_score,numeric,Updating score,0-1
+capacity_estimate,numeric,Estimated working-memory capacity,0+
+overload_probability,numeric,Estimated probability of overload,0-1
+dual_task_cost,numeric,Dual-task cost,0-1
+correct,integer,Whether response was correct,0|1
+accuracy,numeric,Accuracy,0-1
+response_time_ms,numeric,Response time in milliseconds,150+
+confidence,numeric,Subjective confidence,0-1
+learning_support,numeric,Learning or scaffolding support,0-10
+interface_complexity,numeric,Interface or display complexity,0-10
