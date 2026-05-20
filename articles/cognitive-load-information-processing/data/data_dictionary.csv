@@ -1,0 +1,28 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,worked_example|problem_solving|split_attention|integrated_design|redundant|coherence|signaling|ai_assisted|control
+domain,string,Task or instructional domain,math|science|medicine|interface|policy|engineering|finance|ai
+trial,integer,Trial number within participant,1+
+task_id,string,Task or item identifier,non-empty
+expertise_level,string,Learner or user expertise,novice|intermediate|advanced|expert
+intrinsic_load,numeric,Inherent task complexity,0-10
+extraneous_load,numeric,Avoidable design burden,0-10
+germane_load,numeric,Productive schema-building effort,0-10
+element_interactivity,numeric,Simultaneously interacting elements,0-10
+prior_knowledge,numeric,Prior domain knowledge or schema strength,0-10
+working_memory_capacity,numeric,Available working-memory capacity proxy,0-10
+design_quality,numeric,Quality of instructional/interface design,0-10
+split_attention,numeric,Split-attention burden,0-10
+redundancy,numeric,Redundant-processing burden,0-10
+subjective_effort,numeric,Self-reported mental effort,0-10
+mental_demand,numeric,NASA-TLX-style mental demand,0-10
+temporal_demand,numeric,NASA-TLX-style temporal demand,0-10
+frustration,numeric,NASA-TLX-style frustration,0-10
+performance_accuracy,numeric,Continuous performance accuracy,0-1
+correct,integer,Binary correct response,0|1
+rt_ms,numeric,Response time in milliseconds,150+
+error_rate,numeric,Task error rate,0-1
+transfer_score,numeric,Transfer performance score,0-100
+learning_gain,numeric,Pre-post or within-study learning gain,0-100
+mental_efficiency,numeric,Efficiency score combining performance and effort,unbounded
+confidence,numeric,Confidence rating,0-10

@@ -1,0 +1,11 @@
+participant,condition,domain,trial,task_id,expertise_level,intrinsic_load,extraneous_load,germane_load,element_interactivity,prior_knowledge,working_memory_capacity,design_quality,split_attention,redundancy,subjective_effort,mental_demand,temporal_demand,frustration,performance_accuracy,correct,rt_ms,error_rate,transfer_score,learning_gain,mental_efficiency,confidence
+P001,worked_example,math,1,CL001,novice,6.8,2.4,6.4,7.2,2.8,5.6,8.0,1.8,2.0,6.2,6.4,4.0,3.8,0.78,1,2840,0.22,64.0,18.0,0.48,6.6
+P001,problem_solving,math,2,CL002,novice,7.2,5.8,4.2,7.8,2.8,5.6,4.2,5.6,4.0,8.2,8.4,5.8,6.6,0.52,0,3860,0.48,42.0,8.0,-0.88,5.2
+P002,integrated_design,science,1,CL003,intermediate,6.0,2.0,6.6,6.4,5.2,6.4,8.6,1.4,1.6,5.8,5.8,3.8,3.0,0.84,1,2460,0.16,72.0,22.0,0.82,7.4
+P002,split_attention,science,2,CL004,intermediate,6.2,6.6,4.8,6.6,5.2,6.4,3.8,7.8,3.0,7.6,7.8,5.2,5.8,0.60,1,3320,0.40,50.0,12.0,-0.42,5.8
+P003,redundant,medicine,1,CL005,advanced,6.8,5.2,4.6,7.0,7.0,7.2,5.2,3.0,7.6,6.8,6.6,4.6,4.8,0.74,1,2900,0.26,68.0,14.0,0.20,7.0
+P003,coherence,medicine,2,CL006,advanced,6.8,2.2,6.8,7.0,7.0,7.2,8.4,1.8,1.8,5.2,5.2,3.6,3.2,0.88,1,2300,0.12,82.0,24.0,1.02,8.2
+P004,ai_assisted,interface,1,CL007,intermediate,5.8,3.4,5.8,6.0,5.4,6.0,7.4,2.6,2.8,5.6,5.8,4.0,3.8,0.82,1,2100,0.18,74.0,20.0,0.72,7.6
+P004,control,interface,2,CL008,intermediate,5.8,4.8,4.8,6.0,5.4,6.0,5.2,4.2,3.6,6.8,6.8,4.8,5.0,0.66,1,2860,0.34,58.0,12.0,-0.08,6.2
+P005,signaling,ai,1,CL009,expert,6.2,2.0,6.2,6.4,8.2,7.8,8.8,1.4,1.6,4.6,4.8,3.4,2.8,0.92,1,1980,0.08,88.0,16.0,1.38,8.6
+P005,redundant,ai,2,CL010,expert,6.2,4.8,3.8,6.4,8.2,7.8,4.8,2.6,7.8,5.8,5.8,4.0,4.2,0.82,1,2420,0.18,78.0,8.0,0.62,8.0
