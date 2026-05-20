@@ -1,0 +1,11 @@
+participant,condition,problem_id,trial,problem_difficulty,representation_quality,goal_clarity,constraint_load,wm_load,strategy_type,metacognitive_monitoring,strategy_switch_count,switched_strategy,insight_event,solution_accuracy,solution_quality,error_count,confidence,response_time_ms
+P001,control,PS01,1,4.2,6.5,7.0,4.1,4.0,means_end,5.8,1,1,0,1,72.0,1,6.8,3280
+P001,high_load,PS02,2,6.8,4.4,5.2,7.2,8.0,heuristic,4.1,2,1,0,0,39.0,4,4.6,6210
+P002,representation_support,PS01,1,4.2,8.2,8.5,4.0,3.8,decomposition,7.4,0,0,0,1,86.0,0,8.0,2840
+P002,analogical_support,PS03,2,7.1,7.8,7.0,6.4,5.9,analogical,7.0,1,1,1,1,84.0,1,7.8,4120
+P003,metacognitive_prompt,PS04,1,7.8,7.2,6.9,7.2,6.5,means_end,8.1,2,1,0,1,78.0,2,7.3,5060
+P003,dynamic_uncertainty,PS05,2,8.4,5.8,5.7,8.4,7.2,trial_error,5.5,3,1,0,0,46.0,5,5.0,7490
+P004,high_load,PS03,1,7.1,4.8,5.4,7.0,8.2,heuristic,4.4,2,1,0,0,43.0,4,4.8,6720
+P004,metacognitive_prompt,PS02,2,6.8,7.1,7.2,6.9,5.8,decomposition,8.3,1,1,0,1,81.0,1,7.6,4380
+P005,analogical_support,PS04,1,7.8,7.6,7.4,7.3,6.1,analogical,7.2,1,1,1,1,82.0,2,7.5,4860
+P005,control,PS05,2,8.4,5.4,5.8,8.2,7.0,trial_error,5.0,3,1,0,0,45.0,5,4.9,7840

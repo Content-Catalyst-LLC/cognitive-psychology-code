@@ -1,0 +1,20 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|high_load|representation_support|analogical_support|metacognitive_prompt|dynamic_uncertainty
+problem_id,string,Problem identifier,non-empty
+trial,integer,Trial number within participant,1+
+problem_difficulty,numeric,Problem difficulty rating or calibrated item difficulty,0-10
+representation_quality,numeric,Quality of problem representation,0-10
+goal_clarity,numeric,Clarity of goal representation,0-10
+constraint_load,numeric,Number or strength of constraints,0-10
+wm_load,numeric,Working-memory load,0-10
+strategy_type,string,Primary strategy type,algorithmic|heuristic|means_end|analogical|insight|decomposition|trial_error
+metacognitive_monitoring,numeric,Monitoring quality or self-regulation score,0-10
+strategy_switch_count,integer,Number of strategy switches,0+
+switched_strategy,integer,Whether at least one strategy switch occurred,0|1
+insight_event,integer,Whether an insight-like restructuring event occurred,0|1
+solution_accuracy,integer,Whether the solution was correct,0|1
+solution_quality,numeric,Expert or objective solution quality,0-100
+error_count,integer,Number of errors or invalid moves,0+
+confidence,numeric,Participant confidence,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
