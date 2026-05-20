@@ -1,0 +1,21 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|prototype_training|exemplar_training|rule_training|feedback_learning|boundary_ambiguity|conceptual_shift
+trial,integer,Trial number within participant,1+
+stimulus_id,string,Stimulus or item identifier,non-empty
+category_label,string,Target category label,Category_A|Category_B|Category_C
+prototype_distance,numeric,Distance from target category prototype,0-10
+nearest_competing_distance,numeric,Distance to nearest competing category prototype,0-10
+exemplar_similarity,numeric,Similarity to stored category exemplars,0-10
+feature_diagnosticity,numeric,Diagnostic value of relevant features,0-10
+feature_overlap,numeric,Feature overlap with target category,0-10
+boundary_ambiguity,numeric,Ambiguity of category boundary,0-10
+rule_consistency,numeric,Degree to which item follows learned category rule,0-10
+feedback_available,integer,Whether corrective feedback was available,0|1
+category_accuracy,integer,Whether category classification was correct,0|1
+generalization_score,numeric,Generalization performance for novel cases,0-100
+discrimination_score,numeric,Ability to discriminate related categories,0-100
+abstraction_quality,numeric,Quality of abstracted concept representation,0-10
+conceptual_flexibility,numeric,Ability to revise or shift concept use,0-10
+confidence,numeric,Participant confidence,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
