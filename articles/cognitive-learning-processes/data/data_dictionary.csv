@@ -1,0 +1,21 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Learning condition,control|retrieval_practice|worked_example|spaced_practice|interleaving|high_load|feedback_rich|ai_supported
+domain,string,Learning domain,biology|mathematics|programming|history|systems_thinking|language|decision_making
+session,integer,Learning or assessment session,1+
+item_id,string,Learning item or task identifier,non-empty
+prior_knowledge,numeric,Prior knowledge score,0-10
+attention_score,numeric,Sustained attention to relevant material,0-10
+encoding_quality,numeric,Quality of meaningful encoding,0-10
+working_memory_load,numeric,Working-memory load,0-10
+schema_strength,numeric,Strength of organized knowledge structure,0-10
+retrieval_practice,integer,Whether active retrieval practice occurred,0|1
+feedback_quality,numeric,Quality of feedback,0-10
+cognitive_load,numeric,Overall cognitive load,0-10
+comprehension_score,numeric,Comprehension score,0-100
+accuracy,numeric,Task accuracy,0-1
+transfer_score,numeric,Transfer score,0-100
+retention_score,numeric,Delayed retention score,0-100
+response_time_ms,numeric,Response time in milliseconds,150+
+learning_gain,numeric,Post-pre learning gain,-100 to 100
+adaptive_application,numeric,Adaptive application score,0-10

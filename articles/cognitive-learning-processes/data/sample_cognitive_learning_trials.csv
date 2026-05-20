@@ -1,0 +1,11 @@
+participant,condition,domain,session,item_id,prior_knowledge,attention_score,encoding_quality,working_memory_load,schema_strength,retrieval_practice,feedback_quality,cognitive_load,comprehension_score,accuracy,transfer_score,retention_score,response_time_ms,learning_gain,adaptive_application
+P001,control,biology,1,CL001,4.2,6.4,5.2,6.8,4.1,0,4.0,6.6,58.0,0.61,45.0,50.0,2420,12.0,4.2
+P001,retrieval_practice,biology,2,CL002,4.6,7.2,6.8,5.8,5.6,1,6.8,5.6,70.0,0.73,58.0,66.0,2140,22.0,5.8
+P002,worked_example,mathematics,1,CL003,5.1,7.0,7.2,4.8,6.2,0,7.4,4.6,76.0,0.78,62.0,68.0,1980,25.0,6.4
+P002,high_load,mathematics,2,CL004,5.4,5.8,5.4,8.6,5.4,0,4.8,8.8,55.0,0.58,46.0,49.0,2960,10.0,4.0
+P003,spaced_practice,programming,3,CL005,6.0,7.6,7.8,5.2,7.0,1,7.0,5.0,82.0,0.84,70.0,78.0,1860,30.0,7.2
+P003,interleaving,programming,4,CL006,6.4,7.4,7.4,5.8,7.4,1,7.2,5.6,80.0,0.82,76.0,74.0,2020,28.0,7.8
+P004,feedback_rich,systems_thinking,2,CL007,5.8,7.8,7.6,5.6,6.8,1,8.6,5.4,83.0,0.86,74.0,76.0,1920,31.0,7.6
+P004,ai_supported,systems_thinking,3,CL008,6.1,7.2,7.1,5.0,6.9,1,7.8,5.0,81.0,0.83,72.0,73.0,1780,29.0,7.4
+P005,control,history,1,CL009,3.8,6.0,5.0,6.6,3.9,0,4.4,6.5,56.0,0.60,42.0,48.0,2540,11.0,4.0
+P005,retrieval_practice,history,2,CL010,4.0,7.0,6.9,5.4,5.7,1,6.6,5.3,72.0,0.75,60.0,68.0,2100,23.0,6.0
