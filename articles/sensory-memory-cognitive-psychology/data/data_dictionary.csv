@@ -1,0 +1,21 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+modality,string,Sensory modality,visual|auditory|tactile|multimodal
+condition,string,Experimental condition,whole_report|partial_report|valid_cue|invalid_cue|neutral_cue|mask_early|mask_late|no_mask
+trial,integer,Trial number within participant,1+
+stimulus_id,string,Stimulus identifier,non-empty
+cue_delay_ms,numeric,Delay between stimulus offset and report cue,0+
+stimulus_duration_ms,numeric,Stimulus duration in milliseconds,1+
+array_size,integer,Number of presented items,1+
+cue_validity,numeric,Cue validity or cue reliability,0-1
+mask_present,integer,Whether a mask was present,0|1
+trace_strength,numeric,Estimated sensory trace strength at report,0-1
+salience,numeric,Bottom-up salience,0-10
+attentional_priority,numeric,Task-driven priority,0-10
+report_score,numeric,Number or proportion of correctly reported information,0+
+correct,integer,Binary correct report indicator,0|1
+selection_probability,numeric,Modeled selection probability,0-1
+wm_transfer,integer,Whether trace transferred to working memory,0|1
+rt_ms,numeric,Response time in milliseconds,100+
+confidence,numeric,Participant confidence,0-10
+perceptual_continuity,numeric,Subjective continuity or integration rating,0-10

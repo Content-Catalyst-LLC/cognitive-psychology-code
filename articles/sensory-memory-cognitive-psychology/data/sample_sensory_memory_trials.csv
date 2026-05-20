@@ -1,0 +1,11 @@
+participant,modality,condition,trial,stimulus_id,cue_delay_ms,stimulus_duration_ms,array_size,cue_validity,mask_present,trace_strength,salience,attentional_priority,report_score,correct,selection_probability,wm_transfer,rt_ms,confidence,perceptual_continuity
+P001,visual,whole_report,1,SM001,0,50,12,0.00,0,0.92,5.8,3.2,4.0,0,0.42,0,980,5.8,7.2
+P001,visual,partial_report,2,SM002,100,50,12,1.00,0,0.70,6.2,8.0,8.0,1,0.78,1,1120,7.4,7.0
+P002,visual,mask_early,1,SM003,100,50,12,1.00,1,0.38,6.0,7.6,4.0,0,0.50,0,1240,5.4,5.2
+P002,visual,mask_late,2,SM004,300,50,12,1.00,1,0.32,6.0,7.4,3.0,0,0.44,0,1320,5.0,5.0
+P003,auditory,partial_report,1,SM005,500,300,9,1.00,0,0.82,6.8,7.8,7.0,1,0.80,1,1460,7.8,8.2
+P003,auditory,partial_report,2,SM006,3000,300,9,1.00,0,0.46,6.8,7.6,4.0,0,0.56,0,1720,6.0,7.0
+P004,tactile,valid_cue,1,SM007,400,200,6,1.00,0,0.62,5.8,7.2,5.0,1,0.66,1,1580,6.6,7.4
+P004,tactile,invalid_cue,2,SM008,400,200,6,0.00,0,0.60,5.8,3.6,3.0,0,0.38,0,1680,5.6,6.8
+P005,multimodal,valid_cue,1,SM009,250,150,9,1.00,0,0.74,7.2,8.4,7.0,1,0.82,1,1360,7.6,8.4
+P005,multimodal,neutral_cue,2,SM010,600,150,9,0.50,0,0.52,7.0,5.4,5.0,1,0.58,1,1500,6.6,7.8
