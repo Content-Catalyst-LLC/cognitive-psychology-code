@@ -1,0 +1,34 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|anchoring|availability|representativeness|recognition|fluency|affect|take_the_best|tallying|analytic
+domain,string,Judgment domain,general|risk|health|finance|legal|medical|policy|technology|ai
+trial,integer,Trial number within participant,1+
+scenario_id,string,Scenario or item identifier,non-empty
+heuristic_type,string,Dominant heuristic strategy,anchoring|availability|representativeness|recognition|fluency|affect|take_the_best|tallying|satisficing|analytic
+anchor_value,numeric,Anchor value presented or implied,0-100
+adjustment,numeric,Adjustment away from anchor,-100-100
+recall_ease,numeric,Ease of recalling examples,0-10
+representativeness,numeric,Similarity to category or prototype,0-10
+base_rate,numeric,Base-rate probability,0-1
+base_rate_use,numeric,Degree to which base rate is used,0-1
+recognition_strength,numeric,Recognition or familiarity strength,0-10
+fluency,numeric,Processing fluency,0-10
+affective_valence,numeric,Affective valence or positivity,-5-5
+cue_validity,numeric,Validity of primary cue,0-1
+cue_count,integer,Number of cues inspected,1+
+information_cost,numeric,Cost of acquiring more information,0-10
+time_pressure,numeric,Time pressure,0-10
+cognitive_load,numeric,Cognitive load,0-10
+strategy_complexity,numeric,Strategy complexity,0-10
+subjective_effort,numeric,Subjective effort,0-10
+judged_probability,numeric,Participant judged probability,0-1
+true_probability,numeric,Criterion probability,0-1
+estimate,numeric,Participant estimate,0-100
+true_value,numeric,Criterion value,0-100
+choice_binary,integer,Binary judgment or choice outcome,0|1
+correct,integer,Whether choice or judgment is correct,0|1
+rt_ms,numeric,Response time in milliseconds,150+
+confidence,numeric,Confidence rating,0-10
+calibration_error,numeric,Absolute judged-vs-true probability difference,0-1
+bias_magnitude,numeric,Absolute estimate-vs-true value difference,0+
+adaptive_fit,numeric,Heuristic accuracy minus benchmark accuracy,-1-1
