@@ -1,0 +1,36 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|gain_frame|loss_frame|time_pressure|high_load|low_load|affect_cue|ai_assisted|naturalistic
+domain,string,Decision domain,general|risk|health|finance|legal|medical|policy|technology|ai|environment
+trial,integer,Trial number within participant,1+
+scenario_id,string,Scenario or item identifier,non-empty
+option_count,integer,Number of available alternatives,2+
+frame,string,Decision frame,gain|loss|neutral|survival|mortality|success|failure
+gain_loss,string,Outcome domain,gain|loss|mixed|neutral
+probability,numeric,Objective or communicated probability,0-1
+payoff,numeric,Outcome magnitude,-1000-1000
+reference_point,numeric,Reference point for gain/loss evaluation,-1000-1000
+expected_value,numeric,Probability multiplied by payoff,unbounded
+expected_utility,numeric,Utility-weighted expected value,unbounded
+loss_aversion_lambda,numeric,Loss-aversion parameter,0+
+probability_weight,numeric,Subjective probability weight,0-1
+subjective_value,numeric,Prospect-theory-style subjective value,unbounded
+evidence_strength,numeric,Diagnostic evidence favoring the option,-5-5
+drift_rate_proxy,numeric,Approximate evidence accumulation rate,unbounded
+decision_threshold,numeric,Evidence threshold for choice,0+
+choice_risky,integer,Whether risky option was chosen,0|1
+choice_option,string,Chosen option label,non-empty
+optimal_choice,integer,Whether optimal option was selected,0|1
+accuracy,numeric,Decision accuracy,0-1
+confidence,numeric,Subjective confidence,0-1
+affective_valence,numeric,Affective valence,-5-5
+cognitive_load,numeric,Cognitive load,0-10
+time_pressure,numeric,Time pressure,0-10
+uncertainty,numeric,Uncertainty or ambiguity,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
+feedback_valence,numeric,Feedback value or outcome evaluation,-5-5
+regret,numeric,Regret rating,0-10
+decision_quality,numeric,Criterion-based decision quality,0-1
+ai_recommendation,integer,Whether AI recommendation was present,0|1
+ai_agreement,integer,Whether participant agreed with AI recommendation,0|1
+verification_burden,numeric,Effort required to verify recommendation,0-10
