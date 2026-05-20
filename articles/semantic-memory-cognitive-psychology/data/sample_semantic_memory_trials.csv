@@ -1,0 +1,11 @@
+participant,condition,trial,cue_concept,target_concept,category,relation_type,semantic_distance,category_typicality,feature_overlap,associative_strength,concept_familiarity,concreteness,schema_consistency,fact_true,false_association,verification_accuracy,category_strength,confidence,response_time_ms
+P001,control,1,bird,robin,animals,taxonomic,1.4,9.2,8.4,7.8,8.9,8.2,8.6,1,0,1,9.1,8.5,1280
+P001,high_distance,2,bird,shark,animals,unrelated,8.7,2.0,1.2,1.5,8.0,8.5,2.4,0,0,1,1.8,7.9,2210
+P002,semantic_prime,1,doctor,nurse,professions,associative,2.2,7.8,6.4,8.8,8.6,7.0,8.0,1,0,1,8.1,8.4,1040
+P002,false_related,2,doctor,scalpel,professions,false_related,2.8,3.0,5.5,7.6,7.4,8.8,5.0,0,1,0,4.2,5.8,2690
+P003,low_typicality,1,bird,ostrich,animals,taxonomic,3.8,4.4,5.8,4.2,7.2,8.5,6.4,1,0,1,5.2,6.8,1840
+P003,schema_consistent,2,kitchen,spoon,tools,functional,2.0,7.5,6.2,7.9,8.1,8.7,8.5,1,0,1,8.0,8.1,1190
+P004,schema_violation,1,kitchen,wrench,tools,false_related,5.8,3.4,3.0,3.2,7.8,8.9,2.5,0,1,1,2.9,6.1,2450
+P004,semantic_prime,2,justice,law,abstract,thematic,2.5,7.0,5.8,8.2,7.6,2.1,8.0,1,0,1,7.4,7.2,1460
+P005,high_distance,1,democracy,triangle,abstract,unrelated,9.1,1.5,0.8,1.0,7.1,3.4,1.8,0,0,1,1.4,8.0,2360
+P005,control,2,tool,hammer,tools,taxonomic,1.6,8.8,8.0,7.2,8.9,9.1,8.7,1,0,1,8.9,8.6,1320

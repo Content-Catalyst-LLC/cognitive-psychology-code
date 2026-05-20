@@ -1,0 +1,21 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+condition,string,Experimental condition,control|semantic_prime|high_distance|low_typicality|schema_consistent|schema_violation
+trial,integer,Trial number within participant,1+
+cue_concept,string,Semantic cue concept,non-empty
+target_concept,string,Semantic target concept,non-empty
+category,string,Category or domain label,non-empty
+relation_type,string,Relation type,taxonomic|thematic|functional|associative|false_related|unrelated
+semantic_distance,numeric,Distance between cue and target,0-10
+category_typicality,numeric,Typicality of target within category,0-10
+feature_overlap,numeric,Feature overlap between cue and target,0-10
+associative_strength,numeric,Associative or cue strength,0-10
+concept_familiarity,numeric,Familiarity with target concept,0-10
+concreteness,numeric,Concreteness of target concept,0-10
+schema_consistency,numeric,Fitness with existing schema,0-10
+fact_true,integer,Whether proposition is true,0|1
+false_association,integer,Whether false proposition is semantically tempting,0|1
+verification_accuracy,integer,Whether semantic verification was accurate,0|1
+category_strength,numeric,Rated category strength or membership confidence,0-10
+confidence,numeric,Participant confidence,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
